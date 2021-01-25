@@ -108,7 +108,7 @@ class FragmentoLista : Fragment(), ProductosAdaptador.PasarDatos {
         mybundle.putString("EL ID", tempId)
         mybundle.putString("EL NOMBRE", tempNombre)
         mybundle.putString("EL PRECIO", tempPrecio)
-        mybundle.putString("EL IMAGEN", tempImagen)
+        //mybundle.putString("EL IMAGEN", tempImagen)
 
         //instancio fragmento detalle
         val fragmentoDetalle= FragmentoDetalle()
